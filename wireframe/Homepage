@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-12T16:00:37.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="iGf8TljtCoz3gEpWJI2A" version="14.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-12T16:05:17.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="PrCnY8nuK53JNrSktSI0" version="14.8.5" type="github" pages="3">
   <diagram id="JT9omc3Zj555jnawTQyY" name="Homepage">
     <mxGraphModel dx="813" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -62,6 +62,32 @@
         </mxCell>
         <mxCell id="qPoBxqOUfXJl9me7Yt-f-14" value="Populate with api call data" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="0-0vUmwcgE_7PdMj1dW--1">
           <mxGeometry x="140" y="260" width="150" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6Kkx1Eux75Ulg0x14P68" name="submit Idea">
+    <mxGraphModel dx="813" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="hKboOis_j3f3eR04j-3U-0" />
+        <mxCell id="hKboOis_j3f3eR04j-3U-1" parent="hKboOis_j3f3eR04j-3U-0" />
+        <mxCell id="WkJBjiUgtEJ5CqOdFOUH-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hKboOis_j3f3eR04j-3U-1">
+          <mxGeometry x="55" y="50" width="320" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="WkJBjiUgtEJ5CqOdFOUH-1" value="Title" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hKboOis_j3f3eR04j-3U-1">
+          <mxGeometry x="130" y="70" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WkJBjiUgtEJ5CqOdFOUH-2" value="Nav Bar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hKboOis_j3f3eR04j-3U-1">
+          <mxGeometry x="140" y="110" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WkJBjiUgtEJ5CqOdFOUH-7" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="hKboOis_j3f3eR04j-3U-1">
+          <mxGeometry x="150" y="140" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WkJBjiUgtEJ5CqOdFOUH-8" value="Submit your idea" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hKboOis_j3f3eR04j-3U-1">
+          <mxGeometry x="172.5" y="145" width="85" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WkJBjiUgtEJ5CqOdFOUH-9" value="Name: ______&lt;br&gt;Email: _______&lt;br&gt;Your idea: _________" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="hKboOis_j3f3eR04j-3U-1">
+          <mxGeometry x="90" y="190" width="250" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
