@@ -1,0 +1,19 @@
+{
+  "name": "boredom-buster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaseyCook6/boredom-buster.git"
+  },
+  "author": "Christopher, Casey and Tod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaseyCook6/boredom-buster/issues"
+  },
+  "homepage": "https://github.com/CaseyCook6/boredom-buster#readme"
+}
