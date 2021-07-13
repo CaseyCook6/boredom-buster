@@ -10,4 +10,10 @@ document.getElementById("generate-idea").addEventListener('click', function(){
             outputParticipants.innerText = response[0].participants;
             outputActivityType.innerText = response[0].type;
         });
-})
+});
+
+// document.getElementById("idea-button").addEventListener('click', function(){
+//     let submitterName = document.querySelector("#submit-a-form #name").value;
+
+//     console.log(submitterName);
+// });
