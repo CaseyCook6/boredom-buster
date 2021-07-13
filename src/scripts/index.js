@@ -1,16 +1,9 @@
 document.getElementById("generate-idea").addEventListener('click', function(){
-    let output = document.getElementById("suggestion-output");
+    let output = document.querySelector("#suggestion-output > p");
+    // output.innerText = " ";
 
     Promise.all([(fetch("http://www.boredapi.com/api/activity/?price=0.0").then(response => response.json()))])
         .then(response => {
-            // activity
-            console.log(response[0]);
-            console.log(response[0].activity);
-            // type
-            console.log(response[0].type);
-            // participants
-            console.log(response[0].participants);
- 
+            output.innerText = response[0].activity + response[0].type + response[0].participants; 
         });
-
 })
