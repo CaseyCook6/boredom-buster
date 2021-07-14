@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/style/index.css">
+    <link rel="stylesheet" href="../src/style/submitIdea.css">
     <title>Submit an Idea</title>
 </head>
 <body>
@@ -21,17 +22,17 @@
     </nav>
 
     <main>
-      <section id>
+      <section class="submitIdea" id="submit-your-idea">
           <h2>Submit Your Idea</h2>
           <p>We'd love to hear from you about your ideas to help others beat the 
             boredom in their lives.</p>
       </section>
-
-      <section id="submit-a-form">
+      
+      <section class="submitIdea" id="submit-a-form">
         <form>
-          <label for="name">Name:</label>
+          <label for="name">Name:</label><br>
           <input type="text" id="name" name="name"><br>
-          <label for="email">Email:</label>
+          <label for="email">Email:</label><br>
           <input type="email" id="email" name="email"><br>
           <label for="idea">Describe Your Idea:</label><br>
           <textarea id ="idea" name="idea" rows="10" cols="30" placeholder="Enter your idea here"></textarea>
@@ -39,9 +40,10 @@
         <button id="idea-button">Submit Idea</button>
       </section>
 
-      <section id="idea-confirmation">
+      <section class="submitIdea" id="idea-confirmation">
         <p></p>
       </section>
+      </div>
     </main>
 
     <footer>
