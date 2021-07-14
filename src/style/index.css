@@ -1,5 +1,19 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
 header {
     text-align: center
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 nav {
@@ -13,6 +27,7 @@ nav {
 }
 
 footer {
+    flex-shrink: 0;
     text-align: center;
     padding: 2%;
     background-color: blueviolet;

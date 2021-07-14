@@ -1,6 +1,13 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .generate-idea-container {
   display: flex;
   justify-content: center;
+  
 }
 
 .generate-idea-box {
@@ -14,6 +21,6 @@
   border: 3px solid black;
 }
 
-#are-you-bored {
-  text-align: center;
-}
+/* #are-you-bored {
+  
+} */
