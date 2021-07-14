@@ -5,7 +5,7 @@
 
 #testimony-one, #testimony-two, #testimony-three {
     display: flex;
-    flex: 0 0 25em
+    height: 33.333333333%;
 }
 
 img {
@@ -20,4 +20,9 @@ img {
 
 .alignTestimony div {
     text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1594819043778-2382e859f56f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80");
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
 }
+
