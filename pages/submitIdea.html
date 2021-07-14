@@ -1,41 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/style/index.css">
-    <link rel="stylesheet" href="../src/style/submitIdea.css">
-    <title>Submit an Idea</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../src/style/index.css">
+  <link rel="stylesheet" href="../src/style/submitIdea.css">
+  <title>Submit an Idea</title>
 </head>
+
 <body>
-    <header>
-        <h1>Boredom Busters</h1>
-    </header>
+  <header>
+    <h1>Boredom Busters</h1>
+  </header>
 
-    <nav>
-      <a class="link link-1" href="../index.html">Home</a>
-      <a class="link link-2" href="./generateIdea.html">Generate an Idea</a>
-      <a class="link link-3" href="./submitIdea.html">Submit an Idea</a>
-      <a class="link link-4" href="./parentTestimonies.html">Testimonies</a>
-      <a class="link link-5" href="./contactsUs.html">Contact Us</a>
-    </nav>
+  <nav>
+    <a class="link link-1" href="../index.html">Home</a>
+    <a class="link link-2" href="./generateIdea.html">Generate an Idea</a>
+    <a class="link link-3" href="./submitIdea.html">Submit an Idea</a>
+    <a class="link link-4" href="./parentTestimonies.html">Testimonies</a>
+    <a class="link link-5" href="./contactsUs.html">Contact Us</a>
+  </nav>
 
-    <main>
+  <main>
+    <div class="graphic">
+    </div>
+
+    <div class="text">
       <section class="submitIdea" id="submit-your-idea">
-          <h2>Submit Your Idea</h2>
-          <p>We'd love to hear from you about your ideas to help others beat the 
-            boredom in their lives.</p>
+        <h2>Submit Your Idea</h2>
+        <p>We'd love to hear from you about your ideas to help others beat the
+          boredom in their lives.</p>
       </section>
-      
+
       <section class="submitIdea" id="submit-a-form">
         <form>
-          <label for="name">Name:</label><br>
+          <label id="name-label" for="name">Name:</label><br>
           <input type="text" id="name" name="name"><br>
-          <label for="email">Email:</label><br>
+          <label id="email-label" for="email">Email:</label><br>
           <input type="email" id="email" name="email"><br>
           <label for="idea">Describe Your Idea:</label><br>
-          <textarea id ="idea" name="idea" rows="10" cols="30" placeholder="Enter your idea here"></textarea>
+          <textarea id="idea" name="idea" rows="10" cols="30" placeholder="Enter your idea here"></textarea>
         </form>
         <button id="idea-button">Submit Idea</button>
       </section>
@@ -43,14 +49,17 @@
       <section class="submitIdea" id="idea-confirmation">
         <p></p>
       </section>
-      </div>
-    </main>
+    </div>
 
-    <footer>
-        <p></p>
-    </footer>
-    
-    <script src="../src/scripts/submitIdea.js"></script>
-    <script src="../src/scripts/index.js"></script>
+
+  </main>
+
+  <footer>
+    <p></p>
+  </footer>
+
+  <script src="../src/scripts/submitIdea.js"></script>
+  <script src="../src/scripts/index.js"></script>
 </body>
+
 </html>
