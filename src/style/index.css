@@ -9,7 +9,12 @@ nav {
 }
 
 .link {
-    padding: 15px;
+    padding: 2%;
 }
 
+footer {
+    text-align: center;
+    padding: 2%;
+    background-color: blueviolet;
+}
 
