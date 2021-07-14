@@ -1,0 +1,23 @@
+/* main {
+    display: flex;
+    flex-direction: row;
+} */
+
+#testimony-one, #testimony-two, #testimony-three {
+    display: flex;
+    flex: 0 0 25em
+}
+
+img {
+    height: auto;
+    width: 20%;
+}
+
+.alignTestimony p {
+    flex-basis: 66%;
+    flex-shrink: 0;
+}
+
+.alignTestimony div {
+    text-align: center;
+}
