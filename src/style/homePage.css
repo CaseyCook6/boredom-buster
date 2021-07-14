@@ -1,0 +1,22 @@
+#why-this, #parent-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container p {
+    padding: 0 20%;
+}
+
+img {
+    max-height: 30%;
+    max-width: 30%;
+    padding-right: 10%;
+}
