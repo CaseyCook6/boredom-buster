@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../src/style/index.css">
+    <link rel="stylesheet" href="../src/style/generateIdea.css">
     <title>Generate an Idea</title>
 </head>
+
 <body>
     <header>
         <h1>Boredom Busters</h1>
@@ -21,39 +24,43 @@
     </nav>
 
     <main>
-        <section id="are-you-bored">
-            <h2>Are you bored?</h2>
-            <p>Click below to bust that boredom!</p>
-            <button id="generate-idea">Generate Idea!</button>
-        </section>
+        <div class="generate-idea-container">
+            <section class="generate-idea-box" id="are-you-bored">
+                <h2>Are you bored?</h2>
+                <p>Click below to bust that boredom!</p>
+                <button id="generate-idea">Generate Idea!</button>
+            </section>
 
-        <section id="suggestion-output">
-            <p class="activity">Activity:
-                <span>
-                   Currently bored...out of your mind. 
-                </span>
-            </p>
+            <section class="generate-idea-box" id="suggestion-output">
+                <h2>Activity</h2>
+                <p class="activity">Activity:
+                    <span>
+                        Currently bored...out of your mind.
+                    </span>
+                </p>
 
-            <p class="participants">Participants:
-                <span>
-                   just you
-                </span>
-            </p>
+                <p class="participants">Participants:
+                    <span>
+                        just you
+                    </span>
+                </p>
 
-            <p class="activity-type">Activity Type:
-                <span>
-                   unknown
-                </span>
-            </p>
-        </section>
-        
+                <p class="activity-type">Activity Type:
+                    <span>
+                        unknown
+                    </span>
+                </p>
+            </section>
+        </div>
+
     </main>
 
     <footer>
         <p></p>
     </footer>
-    
+
     <script src="../src/scripts/generateIdea.js"></script>
     <script src="../src/scripts/index.js"></script>
 </body>
+
 </html>
