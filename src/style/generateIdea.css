@@ -1,0 +1,19 @@
+.generate-idea-container {
+  display: flex;
+  justify-content: center;
+}
+
+.generate-idea-box {
+  padding: 3%;
+  margin: 3%;
+  width: 30%;
+  
+}
+
+#suggestion-output {
+  border: 3px solid black;
+}
+
+#are-you-bored {
+  text-align: center;
+}
