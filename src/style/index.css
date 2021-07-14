@@ -1,0 +1,15 @@
+header {
+    text-align: center
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.link {
+    padding: 15px;
+}
+
+
