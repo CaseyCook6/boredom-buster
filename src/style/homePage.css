@@ -3,6 +3,10 @@
     justify-content: center;
     align-items: center;
     padding-top: 5%;
+    border: 7px double #020788;
+    margin: 1%;
+    padding-bottom: 5%;
+    border-radius: 20px;
 }
 
 .text-container {
@@ -22,6 +26,11 @@ img {
     padding-right: 10%;
 }
 
-#parent-info {
-    padding-bottom: 5%;
+#why-this p, #parent-info p{
+    line-height: 1.6;
+    font-size: 2vw;
+}
+
+#why-this h2, #parent-info h2{
+    font-size: 3vw;
 }
