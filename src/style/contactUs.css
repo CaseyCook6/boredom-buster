@@ -1,0 +1,31 @@
+.graphic {
+    /* background-image:url("https://images.unsplash.com/photo-1619061088642-8b48fbaab51b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2689&q=80");*/
+    background-image: url(../imgs/simon-hurry-small.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    flex-grow: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactUs {
+    padding-left: 5%;
+}
+
+#name, #email, #name-label, #email-label {
+    margin-bottom: 3%
+}
+
+#submit-comment-button {
+    margin-top: 3%
+}
+
+.text {
+    background-color: #FFFFE9
+}
+
+

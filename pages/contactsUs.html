@@ -1,46 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/style/index.css">
+    <link rel="stylesheet" href="../src/style/contactUs.css">
     <title>Contact Us</title>
 </head>
+
 <body>
     <header>
         <h1>Boredom Busters</h1>
     </header>
 
     <nav>
-        <a href="../index.html">Home</a>
-        <a href="./generateIdea.html">Generate an Idea</a>
-        <a href="./submitIdea.html">Submit an Idea</a>
-        <a href="./parentTestimonies.html">Testimonies</a>
-        <a href="./contactsUs.html">Contact Us</a>
+        <a class="link link-1" href="../index.html">Home</a>
+        <a class="link link-2" href="./generateIdea.html">Generate an Idea</a>
+        <a class="link link-3" href="./submitIdea.html">Submit an Idea</a>
+        <a class="link link-4" href="./parentTestimonies.html">Testimonies</a>
+        <a class="link link-5" href="./contactsUs.html">Contact Us</a>
     </nav>
 
     <main>
-        <section id="">
-            <h2>Contact Us</h2>
-            <p>Have a question? Want to tell us how awesome our site is? Use the form below to contact us!</p>
-        </section>
+        <div class="text">
+            <section class="contactUs" id="contactsUs">
+                <h2>Contact Us</h2>
+                <p>Have a question? Want to tell us how awesome our site is? Use the form below to contact us!</p>
+            </section>
 
-        <section id="contact-us-form">
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name"><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br>
-                <label for="comment">Leave us a comment:</label><br>
-                <textarea id="comment" name="comment" rows="10" cols="30" placeholder="enter your comment here"></textarea>
-              </form>
-              <button id="submit-comment-button">Submit comment</button>
-        </section>
+            <section class="contactUs" id="contact-us-form">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="comment">Leave us a comment:</label><br>
+                    <textarea id="comment" name="comment" rows="10" cols="30"
+                        placeholder="enter your comment here"></textarea>
+                </form>
+                <button id="submit-comment-button">Submit comment</button>
+            </section>
 
-        <section id="thank-you">
-            <p></p>
-        </section>
-        
+            <section id="thank-you">
+                <p></p>
+            </section>
+        </div>
+        <div class="graphic">
+        </div>
     </main>
 
     <footer>
@@ -50,4 +58,5 @@
     <script src="../src/scripts/contactUs.js"></script>
     <script src="../src/scripts/index.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,38 @@
+main {
+  background-image: url(../imgs/bull-dog-generate-idea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.generate-idea-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.generate-idea-box {
+  padding: 1.5%;
+  margin: 3%;
+  width: 30%;
+  
+}
+
+#suggestion-output {
+  border: 7px solid #2d364b;
+  border-radius: 20px;
+  background-color: #ECEEF5;
+}
+
+#are-you-bored {
+  color: aliceblue;
+  font-size: larger; 
+}
+
+#generate-idea {
+  padding: 2%;
+  border: 1px #2d364b solid;
+  border-radius: 20px;
+  font-size: large;
+  background-color: #ECEEF5;
+}

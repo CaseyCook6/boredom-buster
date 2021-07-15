@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+header {
+    text-align: center
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.link {
+    padding: 2%;
+}
+
+footer {
+    flex-shrink: 0;
+    text-align: center;
+    /* padding: 1%; */
+    background-color: blueviolet;
+}
+
