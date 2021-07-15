@@ -1,10 +1,16 @@
+main {
+    /* background-image: linear-gradient(#ECEEF5, #F39E16, #ECEEF5); */
+    background-image: linear-gradient(#F9F4F4 , #FFAF31, #F9F4F4);
+}
+
+
 #why-this, #parent-info {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 5%;
     border: 7px double #020788;
-    margin: 1%;
+    margin: 7%;
     padding-bottom: 5%;
     border-radius: 20px;
 }
@@ -17,7 +23,7 @@
 }
 
 .text-container p {
-    padding: 0 20%;
+    padding: 0 10%;
 }
 
 img {
@@ -28,9 +34,9 @@ img {
 
 #why-this p, #parent-info p{
     line-height: 1.6;
-    font-size: 2vw;
+    font-size: 25px;
 }
 
 #why-this h2, #parent-info h2{
-    font-size: 3vw;
+    font-size: 30px;
 }

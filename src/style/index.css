@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
 html, body {
     height: 100%;
 }
@@ -8,9 +12,12 @@ body {
     margin: 0;
 }
 
-
 header {
-    text-align: center
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    background-color: #017E70;
+    color: #F7F7F7;
 }
 
 main {
@@ -20,7 +27,22 @@ main {
 nav {
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: #ECEEF5;
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 25px;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a {
+    color: #060646;
+}
+
+nav a:hover {
+    color: #B10509;
+    text-decoration: underline;
 }
 
 .link {
@@ -31,6 +53,22 @@ footer {
     flex-shrink: 0;
     text-align: center;
     /* padding: 1%; */
-    background-color: blueviolet;
+    background-color: #ECEEF5;
+}
+
+p, form {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 22px;
+}
+
+h2, button {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+
+input, textarea{
+    font-size: 20px;
+    /* padding-top: 
+    padding-bottom: ; */
 }
 
