@@ -1,5 +1,4 @@
 .graphic {
-    /* background-image:url("https://images.unsplash.com/photo-1619061088642-8b48fbaab51b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2689&q=80");*/
     background-image: url(../imgs/simon-hurry-small.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,7 +24,6 @@ main {
 }
 
 .text {
-    /* background-color: #FFFFE9 */
     background-color: #F3F8FF;
 }
 

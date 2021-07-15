@@ -59,11 +59,9 @@ main {
 
 #testimony-one p, #testimony-two p, #testimony-three p {
     line-height: 1.6;
-    font-size: larger;
 }
 
 h2 {
     text-align: center;
-    font-size: 30px;
 }
 

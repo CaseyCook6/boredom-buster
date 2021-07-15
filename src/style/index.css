@@ -29,7 +29,7 @@ nav {
     justify-content: center;
     background-color: #ECEEF5;
     font-family: 'Encode Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 nav a:link {
@@ -58,9 +58,11 @@ footer {
 
 p, form {
     font-family: 'Encode Sans', sans-serif;
+    font-size: 22px;
 }
 
 h2, button {
     font-family: 'Roboto Slab', serif;
+    font-size: 25px;
 }
 
