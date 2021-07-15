@@ -16,7 +16,7 @@ main {
     display: flex;
     flex-direction: column;
     /* background-color: #F9F4F4; */
-    background-image: linear-gradient(#F9F4F4 , #FFD8D8 );
+    background-image: linear-gradient(#F9F4F4, #FFAF31, #F9F4F4);
 }
 
 
@@ -63,5 +63,14 @@ main {
 
 h2 {
     text-align: center;
+    font-size: 35px;
+}
+
+main > p {
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
 }
 
