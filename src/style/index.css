@@ -32,6 +32,19 @@ nav {
     font-size: 20px;
 }
 
+nav a:link {
+    text-decoration: none;
+}
+
+nav a {
+    color: #060646;
+}
+
+nav a:hover {
+    color: #B10509;
+    text-decoration: underline;
+}
+
 .link {
     padding: 2%;
 }
