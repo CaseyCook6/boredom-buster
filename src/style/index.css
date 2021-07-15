@@ -15,6 +15,9 @@ body {
 header {
     text-align: center;
     font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    background-color: #274BA1;
+    color: #F7F7F7;
 }
 
 main {
@@ -24,8 +27,9 @@ main {
 nav {
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: #ECEEF5;
     font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
 }
 
 .link {
@@ -36,7 +40,7 @@ footer {
     flex-shrink: 0;
     text-align: center;
     /* padding: 1%; */
-    background-color: blueviolet;
+    background-color: #ECEEF5;
 }
 
 p, form {
