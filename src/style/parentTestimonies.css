@@ -41,4 +41,22 @@ main {
     background-image: url(../imgs/annoyed-dad.jpg);
 }
 
+#testimony-one p, #testimony-three p {
+    padding-left: 4%;
+    text-align: end;
+}
+
+#testimony-two p {
+    padding-right: 4%;
+    text-align: start;
+}
+
+#testimony-one p, #testimony-two p, #testimony-three p {
+    line-height: 1.6;
+    font-size: larger;
+}
+
+h2 {
+    padding-left: 4%;
+}
 
