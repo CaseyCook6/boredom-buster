@@ -1,5 +1,6 @@
 .graphic {
-    background-image:url("https://images.unsplash.com/photo-1580566176138-daa588058b59?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80");
+    /* background-image:url("https://images.unsplash.com/photo-1580566176138-daa588058b59?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80"); */
+    background-image: url(../imgs/sharon-mccutcheon-small.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
