@@ -66,3 +66,9 @@ h2, button {
     font-size: 25px;
 }
 
+input, textarea{
+    font-size: 20px;
+    /* padding-top: 
+    padding-bottom: ; */
+}
+
