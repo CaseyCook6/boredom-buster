@@ -1,28 +1,44 @@
-/* main {
-    display: flex;
-    flex-direction: row;
-} */
-
 #testimony-one, #testimony-two, #testimony-three {
     display: flex;
-    height: 33.333333333%;
+    /* height: 33.333333333%; */
+    /* height: 31%; */
+    /* flex-basis: 100%; */
+    flex-basis: 100%;
 }
 
-img {
-    height: auto;
-    width: 20%;
+main {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #F9F4F4; */
+    background-image: linear-gradient(#F9F4F4 , #FFD8D8 );
 }
+
 
 .alignTestimony p {
     flex-basis: 66%;
     flex-shrink: 0;
 }
 
-.alignTestimony div {
+.testimony-one-picture, .testimony-two-picture, .testimony-three-picture {
     text-align: center;
-    background-image: url("https://images.unsplash.com/photo-1594819043778-2382e859f56f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     flex-grow: 1;
+    /* border-radius: 50%; */
 }
+
+.testimony-one-picture {
+    background-image: url(../imgs/martha.jpg);
+}
+
+.testimony-two-picture {
+    background-image: url(../imgs/paint-dry.jpg);
+    
+}
+
+.testimony-three-picture {
+    background-image: url(../imgs/annoyed-dad.jpg);
+}
+
 

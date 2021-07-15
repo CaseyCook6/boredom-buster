@@ -29,7 +29,7 @@ nav {
 footer {
     flex-shrink: 0;
     text-align: center;
-    padding: 2%;
+    /* padding: 1%; */
     background-color: blueviolet;
 }
 
