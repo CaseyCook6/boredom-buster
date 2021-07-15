@@ -4,6 +4,12 @@
     /* height: 31%; */
     /* flex-basis: 100%; */
     flex-basis: 100%;
+    border: 7px double #020788;
+    border-radius: 20px;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
 }
 
 main {
@@ -57,6 +63,7 @@ main {
 }
 
 h2 {
-    padding-left: 4%;
+    text-align: center;
+    font-size: 30px;
 }
 
