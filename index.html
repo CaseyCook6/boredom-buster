@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style/index.css">
     <link rel="stylesheet" href="./src/style/homePage.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js"></script>
     <title>Boredom Busters</title>
 </head>
 
@@ -50,6 +51,20 @@
                 alt="kid not on boredom">
         </section>
 
+        <section id="bordem-chart">
+            <div class="text-container">
+                <h2>Boredom an Epidemic</h2>
+                <p>Accoridng to our very real data, Bordem has been on the rise reaching an time peak of 103% in the United States in 2020.  Since founding Boredom Busters,
+                    we have reduced Boredom to 14%.  Our projections indicate we will reradicate boredom by the end of 2022.
+                </p>
+            </div>
+            <div>
+                <canvas id="boredomChart"></canvas>
+            </div>
+            
+        </section>
+
+
     </main>
 
     <footer>
@@ -57,7 +72,7 @@
     </footer>
 
     <script src="./src/scripts/index.js"></script>
-
+    <script src="./src/scripts/homepage.js"></script>
 </body>
 
 </html>

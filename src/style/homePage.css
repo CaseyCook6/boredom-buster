@@ -4,7 +4,7 @@ main {
 }
 
 
-#why-this, #parent-info {
+#why-this, #parent-info, #bordem-chart {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,11 +32,15 @@ img {
     padding-right: 10%;
 }
 
-#why-this p, #parent-info p{
+#why-this p, #parent-info p, #boredeom-chart p{
     line-height: 1.6;
     font-size: 25px;
 }
 
-#why-this h2, #parent-info h2{
+#why-this h2, #parent-info h2, #boredom-chart h2 {
     font-size: 30px;
+}
+
+#bordem-chart div {
+    flex: 1;
 }
