@@ -72,3 +72,7 @@ input, textarea{
     padding-bottom: ; */
 }
 
+
+.hide {
+    display: none;
+}
