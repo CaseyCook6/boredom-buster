@@ -19,11 +19,12 @@ function validateForm() {
 }
 
 document.getElementById("idea-button").addEventListener('click', function(){
-  let ideaConfirmation = document.querySelector("#idea-confirmation p");
+  let ideaConfirmation = document.querySelector("#idea-confirmation");
   let finish = validateForm();
 
   if (finish) {
     let submitterName = document.querySelector("#submit-a-form #name").value;
-    ideaConfirmation.innerText = `Thank you ${submitterName} for your idea!`;
+    ideaConfirmation.querySelector('.submitterName').innerText = submitterName;
+    ideaConfirmation.classList.remove('hide');
   } 
 });
